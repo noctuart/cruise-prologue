@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プロローグ | アバターde豪華客船からの脱出 バーチャル交流会♪</title>
+<meta name="description" content="案内ロボットぷっぷちゃんが、あなたに招待状を届けにやってきました。2026年8月27日(木)開催「アバターde豪華客船からの脱出 バーチャル交流会♪」のプロローグ。">
+<meta property="og:title" content="プロローグ | アバターde豪華客船からの脱出 バーチャル交流会♪">
+<meta property="og:description" content="ぷっぷちゃんが、あなたに招待状を届けにやってきました。物語のはじまりをチェック！">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy-deep: #0E1B33;
+    --navy: #14213D;
+    --navy-card: #1C2B4A;
+    --navy-soft: #24406E;
+    --cream: #F9F3E4;
+    --cream-card: #FDF9EE;
+    --cream-row: #FFFDF5;
+    --gold: #C9A24D;
+    --gold-light: #E3C377;
+    --gold-pale: #F3E3B8;
+    --gold-deep: #7A5C15;
+    --ink: #2A3550;
+    --ink-muted: #55627D;
+    --serif: 'Shippori Mincho', serif;
+  }
+
+  html, body { margin: 0; padding: 0; background: var(--navy-deep); }
+  body {
+    font-family: 'Zen Maru Gothic', 'Hiragino Maru Gothic ProN', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: #2E6FA3; }
+  a:hover { color: #8C6A1D; }
+  img { display: block; }
+
+  @keyframes floatY {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-6px); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .header__seal { animation: none !important; }
+  }
+
+  .page {
+    max-width: 520px;
+    margin: 0 auto;
+    background: var(--cream);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+  }
+
+  .diamond {
+    width: 6px; height: 6px;
+    background: var(--gold-light);
+    transform: rotate(45deg);
+  }
+
+  /* Header */
+  .header {
+    background: radial-gradient(130% 100% at 50% 0%, var(--navy-soft) 0%, var(--navy) 70%);
+    padding: 26px 22px 56px;
+    text-align: center;
+  }
+  .header__ribbon {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(14, 27, 51, 0.55);
+    border: 1px solid rgba(227, 195, 119, 0.75);
+    border-radius: 999px;
+    padding: 7px 20px;
+    margin-bottom: 22px;
+  }
+  .header__ribbon-text {
+    font-family: var(--serif);
+    font-size: 13px;
+    letter-spacing: 0.32em;
+    color: var(--gold-pale);
+    font-weight: 600;
+  }
+  .header__seal {
+    width: 64px; height: 64px;
+    margin: 0 auto 16px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #E9CF8E, var(--gold) 58%, #A57F2C);
+    border: 2px solid #B8934083;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: floatY 5s ease-in-out infinite;
+  }
+  .header__seal-text {
+    font-family: var(--serif);
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--cream-card);
+    letter-spacing: 0.08em;
+    text-shadow: 0 1px 2px rgba(90, 64, 10, 0.4);
+  }
+  .header__title {
+    margin: 0;
+    font-family: var(--serif);
+    color: #F5EBD3;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .header__title-sub  { display: block; font-size: 15px; letter-spacing: 0.2em; }
+  .header__title-main { display: block; font-size: 24px; letter-spacing: 0.06em; margin-top: 2px; }
+  .header__subtitle {
+    margin: 12px 0 0;
+    font-family: var(--serif);
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    color: var(--gold-light);
+    font-weight: 600;
+  }
+
+  /* Story card */
+  .story-wrap { background: var(--cream); padding: 0 18px 34px; }
+  .story-card {
+    position: relative;
+    margin-top: -30px;
+    background: var(--cream-card);
+    border: 1px solid #D9C58C;
+    border-radius: 14px;
+    box-shadow:
+      0 14px 34px rgba(30, 41, 74, 0.16),
+      inset 0 0 0 4px var(--cream-card),
+      inset 0 0 0 5px #D9C58C;
+    padding: 30px 22px 28px;
+  }
+  .story-card p {
+    margin: 0 0 22px;
+    font-size: 15px;
+    line-height: 2.15;
+    color: var(--ink);
+    text-wrap: pretty;
+  }
+  .story-card p:last-child { margin-bottom: 0; }
+  .story__address {
+    font-family: var(--serif);
+    font-weight: 700;
+    color: var(--navy-card);
+    text-align: center;
+    font-size: 16.5px;
+    letter-spacing: 0.06em;
+  }
+  .story__closing {
+    font-family: var(--serif);
+    font-weight: 700;
+    color: var(--navy-card);
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.08em;
+  }
+  .story__ornament {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 0 24px;
+  }
+  .story__ornament-line { width: 56px; height: 1px; background: var(--gold); }
+  .story__ornament-diamond {
+    width: 7px; height: 7px;
+    background: var(--gold);
+    transform: rotate(45deg);
+  }
+
+  /* Illustration slots.
+     To add an illustration: just upload images/prologue_scene01.jpg (…02–04) and redeploy.
+     The loader script below swaps the placeholder for the image automatically. */
+  .scene { margin: 0 0 24px; }
+  .scene__placeholder {
+    aspect-ratio: 3 / 2;
+    border: 2px dashed #CBB878;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg, #F7F2E2 0px, #F7F2E2 10px, #F1EAD5 10px, #F1EAD5 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+  .scene__placeholder-label {
+    font-family: var(--serif);
+    font-size: 15px;
+    font-weight: 700;
+    color: #A08A4E;
+    letter-spacing: 0.2em;
+  }
+  .scene__placeholder-note {
+    font-size: 11.5px;
+    color: #B0A277;
+    letter-spacing: 0.08em;
+  }
+  .scene__img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border: 1px solid #D9C58C;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(30, 41, 74, 0.14);
+  }
+
+  /* Wave dividers */
+  .wave { display: block; width: 100%; height: 44px; }
+  .wave--to-navy  { background: var(--cream); }
+  .wave--to-cream { background: var(--navy); }
+
+  /* Event info */
+  .event {
+    background: radial-gradient(120% 90% at 50% 0%, var(--navy-soft) 0%, var(--navy) 68%);
+    padding: 34px 22px 42px;
+    text-align: center;
+  }
+  .event__kicker {
+    margin: 0 0 8px;
+    font-size: 12.5px;
+    letter-spacing: 0.3em;
+    color: var(--gold-light);
+    font-weight: 700;
+  }
+  .event__title {
+    margin: 0 0 20px;
+    font-family: var(--serif);
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    color: #F5EBD3;
+    font-weight: 700;
+  }
+  .event__grid {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 12px 14px;
+    align-items: center;
+    text-align: left;
+    background: rgba(255, 253, 245, 0.07);
+    border: 1px solid rgba(227, 195, 119, 0.4);
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 18px;
+  }
+  .event__label {
+    border: 1px solid var(--gold-light);
+    color: var(--gold-light);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px 0;
+  }
+  .event__value { font-size: 14px; color: #F0EBDD; line-height: 1.6; }
+  .event__value-strong { font-size: 14.5px; color: #F0EBDD; font-weight: 700; }
+  .event__value-note { font-size: 12px; color: #AFBCD6; }
+  .event__apply {
+    margin: 0;
+    font-size: 13.5px;
+    color: #C7D2E8;
+    line-height: 1.9;
+  }
+  .event__apply strong { color: var(--gold-pale); }
+
+  /* Contact */
+  .contact { background: var(--cream); padding: 30px 22px; text-align: center; }
+  .contact__logo { width: 96px; height: 96px; margin: 0 auto 12px; }
+  .contact__title {
+    margin: 0 0 4px;
+    font-family: var(--serif);
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    color: var(--navy-card);
+    font-weight: 700;
+  }
+  .contact__hours {
+    margin: 0 0 10px;
+    font-size: 13px;
+    color: var(--ink-muted);
+    line-height: 1.8;
+  }
+  .contact__tel-wrap { margin: 0 0 20px; }
+  .contact__tel {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: var(--navy-card);
+  }
+  .contact__footer { border-top: 1px solid #E0D4B4; padding-top: 16px; }
+  .contact__credit {
+    margin: 0;
+    font-size: 11.5px;
+    line-height: 1.9;
+    color: #6B7488;
+    text-align: left;
+    text-wrap: pretty;
+  }
+
+  .page__bottom-strip { height: 12px; background: var(--navy); }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__ribbon">
+      <span class="diamond"></span>
+      <span class="header__ribbon-text">プロローグ</span>
+      <span class="diamond"></span>
+    </div>
+    <div class="header__seal"><span class="header__seal-text">招待状</span></div>
+    <h1 class="header__title">
+      <span class="header__title-sub">アバターde</span>
+      <span class="header__title-main">豪華客船からの脱出</span>
+    </h1>
+    <p class="header__subtitle">〜 ぷっぷちゃんのおつかい 〜</p>
+  </header>
+
+  <!-- Story -->
+  <div class="story-wrap">
+    <article class="story-card">
+
+      <p>ぷっ。はじめまして、ぷっぷちゃんです。<br>
+      おおきな白い客船で、案内係をしているロボットです。</p>
+
+      <p>きょうは、とくべつなおしごとを頼まれました。<br>
+      船長さんから、金の封蝋のついたお手紙をあずかったのです。<br>
+      「大切なお客さまに、届けてきておくれ」って。</p>
+
+      <figure class="scene" data-src="images/prologue_scene01.jpg" data-alt="船長室で、ぷっぷちゃんが金の封蝋のついた手紙を受け取っている様子">
+        <div class="scene__placeholder">
+          <span class="scene__placeholder-label">さしえ 一</span>
+          <span class="scene__placeholder-note">じゅんびちゅう…</span>
+        </div>
+      </figure>
+
+      <p class="story__address">宛先は——そう、あなたです。</p>
+
+      <p>船を降りて、長い長い桟橋をてくてく。<br>
+      潮風に帽子をおさえて、波の音とかもめの声をききながら、<br>
+      あなたの街まで、やってきました。</p>
+
+      <figure class="scene" data-src="images/prologue_scene02.jpg" data-alt="潮風の桟橋を、帽子をおさえながらてくてく歩くぷっぷちゃん。空にはかもめ">
+        <div class="scene__placeholder">
+          <span class="scene__placeholder-label">さしえ 二</span>
+          <span class="scene__placeholder-note">じゅんびちゅう…</span>
+        </div>
+      </figure>
+
+      <p>お手紙の中身は、船長さんだけが知っています。<br>
+      でもね、ひとつだけ、こっそり教えちゃいます。<br>
+      あの船には、ふしぎな「なぞ」が眠っているんだって。<br>
+      みんなで力をあわせたら、きっと解けるはずなんだって。</p>
+
+      <figure class="scene" data-src="images/prologue_scene03.jpg" data-alt="ぷっぷちゃんが、あなたに金の封蝋の招待状をさしだしている様子">
+        <div class="scene__placeholder">
+          <span class="scene__placeholder-label">さしえ 三</span>
+          <span class="scene__placeholder-note">じゅんびちゅう…</span>
+        </div>
+      </figure>
+
+      <p>こわいことは、なにもありません。<br>
+      ゆっくりでだいじょうぶ。話すのが苦手でも、だいじょうぶ。<br>
+      ぷっぷちゃんも、仲間たちも、ずっとそばにいます。</p>
+
+      <p>夏の午後、海の上で。<br>
+      あなたに会えるのを、たのしみに待っています。</p>
+
+      <figure class="scene" data-src="images/prologue_scene04.jpg" data-alt="夕暮れの海に浮かぶ、あかりのともった白い豪華客船の遠景">
+        <div class="scene__placeholder">
+          <span class="scene__placeholder-label">さしえ 四</span>
+          <span class="scene__placeholder-note">じゅんびちゅう…</span>
+        </div>
+      </figure>
+
+      <div class="story__ornament">
+        <span class="story__ornament-line"></span>
+        <span class="story__ornament-diamond"></span>
+        <span class="story__ornament-line"></span>
+      </div>
+
+      <p class="story__closing">——当日、船でまってるね。ぷっ。</p>
+
+    </article>
+  </div>
+
+  <!-- Wave: cream -> navy -->
+  <svg class="wave wave--to-navy" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,44 C240,10 480,74 720,44 C960,14 1200,70 1440,40 L1440,80 L0,80 Z" fill="#14213D"></path>
+  </svg>
+
+  <!-- Event info -->
+  <section class="event">
+    <p class="event__kicker">つづきは、この日に</p>
+    <h2 class="event__title">バーチャル交流会のご案内</h2>
+    <div class="event__grid">
+      <span class="event__label">日時</span>
+      <span class="event__value-strong">2026年8月27日(木) 14:00〜15:30</span>
+      <span class="event__label">場所</span>
+      <span class="event__value">ふくおかＶさぽルーム<br><span class="event__value-note">（Second Life を使用します）</span></span>
+      <span class="event__label">参加費</span>
+      <span class="event__value">無料</span>
+      <span class="event__label">対象</span>
+      <span class="event__value">ふくおかＶさぽルームの利用登録者</span>
+      <span class="event__label">定員</span>
+      <span class="event__value">10〜20名</span>
+    </div>
+    <p class="event__apply">参加申込は、配布チラシの<strong>申込用QRコード</strong>からどうぞ。<br>音声でもチャットでも参加OK。初めての方も大歓迎です！</p>
+  </section>
+
+  <!-- Wave: navy -> cream -->
+  <svg class="wave wave--to-cream" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,40 C240,72 480,8 720,38 C960,66 1200,12 1440,42 L1440,80 L0,80 Z" fill="#F9F3E4"></path>
+  </svg>
+
+  <!-- Contact -->
+  <section class="contact">
+    <img class="contact__logo" src="images/logo-vsapo.png" alt="ふくおかバーチャルさぽーとROOM（福岡県）ロゴ">
+    <h2 class="contact__title">「ふくおかバーチャルさぽーとROOM」窓口</h2>
+    <p class="contact__hours">月〜金 10:00-17:00<br>※年末年始・祝日を除く</p>
+    <p class="contact__tel-wrap"><a class="contact__tel" href="tel:08081829611">080-8182-9611</a></p>
+    <div class="contact__footer">
+      <p class="contact__credit">『ふくおかバーチャルさぽーとROOM』は「福岡県メタバース活用就労支援事業」として、福岡県からの委託を受けて特定非営利活動法人JACFAが運営しています。</p>
+    </div>
+  </section>
+
+  <div class="page__bottom-strip"></div>
+</div>
+
+<script>
+  // Illustration loader: if images/prologue_sceneNN.jpg exists, it replaces the
+  // placeholder; otherwise the placeholder stays. Adding art later requires no
+  // HTML edits — just upload the files and redeploy.
+  document.querySelectorAll('.scene[data-src]').forEach(function (fig) {
+    var probe = new Image();
+    probe.onload = function () {
+      var img = document.createElement('img');
+      img.className = 'scene__img';
+      img.src = fig.dataset.src;
+      img.alt = fig.dataset.alt || '';
+      fig.replaceChildren(img);
+    };
+    probe.src = fig.dataset.src;
+  });
+</script>
+
+</body>
+</html>
